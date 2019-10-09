@@ -1,1 +1,1 @@
-# ansible-my-settings
+# ansible-settings
