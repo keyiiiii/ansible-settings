@@ -99,6 +99,7 @@ packages:
   - { name: lzo, state: present}
   - { name: maven, state: present}
   - { name: mcrypt, state: present}
+  - { name: mitmproxy, state: present}
   - { name: mhash, state: present}
   - { name: mongoose, state: present}
   - { name: netpbm, state: present}
