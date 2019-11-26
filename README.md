@@ -11,7 +11,7 @@ $ sh ./setting.sh
 ### Root
 
 ```
-$ cd ~/setup
+$ cd ./setup
 ```
 
 ### Check syntax

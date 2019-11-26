@@ -7,6 +7,7 @@ packages:
   - { name: android-studio, state: present }
   - { name: appcleaner, state: present }
   - { name: atom, state: present }
+  - { name: betterzipql, state: present }
   - { name: brave-browser, state: present }
   - { name: caffeine, state: present }
   - { name: charles, state: present }
@@ -50,6 +51,12 @@ packages:
   - { name: notion, state: present }
   - { name: opera, state: present }
   - { name: pritunl, state: present }
+  - { name: provisionql, state: present }
+  - { name: qlcolorcode, state: present }
+  - { name: quicklook-csv, state: present }
+  - { name: quicklook-json, state: present }
+  - { name: qlmarkdown, state: present }
+  - { name: qlstephen, state: present }
   - { name: resolutionator, state: present }
   - { name: securid, state: present }
   - { name: sketch, state: present }
