@@ -14,6 +14,7 @@ packages:
   - { name: autoconf, state: present}
   - { name: automake, state: present}
   - { name: bash-completion, state: present}
+  - { name: bento4, state: present}
   - { name: boost, state: present}
   - { name: boot2docker, state: present}
   - { name: brotli, state: present}
