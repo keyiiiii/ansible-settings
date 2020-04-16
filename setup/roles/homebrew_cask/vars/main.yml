@@ -27,6 +27,7 @@ packages:
   - { name: fluid, state: present }
   - { name: flux, state: present }
   - { name: ganache, state: present }
+  - { name: gifski, state: present }
   - { name: google-chrome, state: present }
   - { name: google-web-designer, state: present }
   - { name: google-japanese-ime, state: present }
