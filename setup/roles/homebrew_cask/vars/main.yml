@@ -30,6 +30,7 @@ packages:
   - { name: google-chrome, state: present }
   - { name: google-web-designer, state: present }
   - { name: google-japanese-ime, state: present }
+  - { name: hiddenbar, state: present }
   - { name: hype, state: present }
   - { name: imagealpha, state: present }
   - { name: imageoptim, state: present }
