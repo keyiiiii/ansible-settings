@@ -98,6 +98,7 @@ packages:
   - { name: libzip, state: present}
   - { name: little-cms2, state: present}
   - { name: lzo, state: present}
+  - { name: mas, state: present }
   - { name: maven, state: present}
   - { name: mcrypt, state: present}
   - { name: mitmproxy, state: present}

@@ -7,7 +7,7 @@ packages:
   - { name: android-studio, state: present }
   - { name: appcleaner, state: present }
   - { name: atom, state: present }
-  - { name: betterzipql, state: present }
+  - { name: betterzip, state: present }
   - { name: brave-browser, state: present }
   - { name: caffeine, state: present }
   - { name: charles, state: present }
@@ -27,7 +27,6 @@ packages:
   - { name: fluid, state: present }
   - { name: flux, state: present }
   - { name: ganache, state: present }
-  - { name: gifski, state: present }
   - { name: google-chrome, state: present }
   - { name: google-web-designer, state: present }
   - { name: google-japanese-ime, state: present }
@@ -70,7 +69,6 @@ packages:
   - { name: sublime-text, state: present }
   - { name: telegram, state: present }
   - { name: the-unarchiver, state: present }
-  - { name: Tomato One, state: present }
   - { name: tower, state: present }
   - { name: townwifi, state: present }
   - { name: transmit, state: present }
