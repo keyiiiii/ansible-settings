@@ -104,6 +104,7 @@ packages:
   - { name: mitmproxy, state: present}
   - { name: mhash, state: present}
   - { name: mongoose, state: present}
+  - { name: mosh, state: present}
   - { name: netpbm, state: present}
   - { name: nettle, state: present}
   - { name: nghttp2, state: present}
