@@ -132,8 +132,7 @@ packages:
   - { name: postgresql@9.6, state: present}
   - { name: protobuf, state: present}
   - { name: pstree, state: present}
-  - { name: python3, state: present}
-  - { name: python@2, state: present}
+  - { name: python, state: present}
   - { name: qt, state: present}
   - { name: readline, state: present}
   - { name: redis, state: present}
