@@ -16,6 +16,7 @@ packages:
   - { name: coteditor, state: present }
   - { name: dash, state: present }
   - { name: deco, state: present }
+  - { name: deepl, state: present }
   - { name: diffmerge, state: present }
   - { name: discord, state: present }
   - { name: docker, state: present }
