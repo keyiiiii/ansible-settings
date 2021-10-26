@@ -21,8 +21,6 @@ packages:
   - { name: discord, state: present }
   - { name: docker, state: present }
   - { name: dropbox, state: present }
-  - { name: eclipse-ide, state: present }
-  - { name: ethereum-wallet, state: present }
   - { name: firefox, state: present }
   - { name: fluid, state: present }
   - { name: flux, state: present }
@@ -34,18 +32,14 @@ packages:
   - { name: imagealpha, state: present }
   - { name: imageoptim, state: present }
   - { name: insomnia, state: present }
-  - { name: intellij-idea, state: present }
-  - { name: iota-wallet, state: present }
   - { name: iterm2, state: present }
   - { name: itsycal, state: present }
+  - { name: jetbrains-toolbox, state: present }
   - { name: kap, state: present }
   - { name: keepassx, state: present }
   - { name: kindle, state: present }
   - { name: licecap, state: present }
   - { name: macdown, state: present }
-  - { name: mist, state: present }
-  - { name: mongodb, state: present }
-  - { name: near-lock, state: present }
   - { name: ngrok, state: present }
   - { name: notion, state: present }
   - { name: opera, state: present }
@@ -64,7 +58,6 @@ packages:
   - { name: skype, state: present }
   - { name: slack, state: present }
   - { name: spotify, state: present }
-  - { name: station, state: present }
   - { name: sublime-text, state: present }
   - { name: telegram, state: present }
   - { name: the-unarchiver, state: present }
@@ -78,11 +71,10 @@ packages:
   - { name: visual-studio-code, state: present }
   - { name: vivaldi, state: present }
   - { name: vlc, state: present }
-  - { name: webponize, state: present }
   - { name: webstorm, state: present }
   - { name: wireshark, state: present }
   - { name: xmind, state: present }
   - { name: zeplin, state: present }
-  - { name: zoomus, state: present }
+  - { name: zoom, state: present }
   - { name: music-manager, state: present }
   - { name: vagrant, state: present }

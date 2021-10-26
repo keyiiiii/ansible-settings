@@ -13,3 +13,6 @@ export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
 ## install ansible
 brew install ansible
+
+## installl plugin
+ansible-galaxy collection install community.general
