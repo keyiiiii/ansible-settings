@@ -11,7 +11,7 @@ packages:
   - { name: brave-browser, state: present }
   - { name: caffeine, state: present }
   - { name: charles, state: present }
-  - { name: chatwork, state: present }
+  - { name: clipy, state: present }
   - { name: colorsnapper, state: present }
   - { name: coteditor, state: present }
   - { name: dash, state: present }
@@ -23,7 +23,6 @@ packages:
   - { name: dropbox, state: present }
   - { name: eclipse-ide, state: present }
   - { name: ethereum-wallet, state: present }
-  - { name: evernote, state: present }
   - { name: firefox, state: present }
   - { name: fluid, state: present }
   - { name: flux, state: present }
@@ -32,7 +31,6 @@ packages:
   - { name: google-web-designer, state: present }
   - { name: google-japanese-ime, state: present }
   - { name: hiddenbar, state: present }
-  - { name: hype, state: present }
   - { name: imagealpha, state: present }
   - { name: imageoptim, state: present }
   - { name: insomnia, state: present }
@@ -83,7 +81,6 @@ packages:
   - { name: webponize, state: present }
   - { name: webstorm, state: present }
   - { name: wireshark, state: present }
-  - { name: xampp, state: present }
   - { name: xmind, state: present }
   - { name: zeplin, state: present }
   - { name: zoomus, state: present }
