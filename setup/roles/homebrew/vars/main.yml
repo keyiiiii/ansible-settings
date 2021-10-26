@@ -140,6 +140,7 @@ packages:
   - { name: rtmpdump, state: present}
   - { name: rubberband, state: present}
   - { name: sbt, state: present}
+  - { name: scrcpy, state: present}
   - { name: sdl2, state: present}
   - { name: shared-mime-info, state: present}
   - { name: snappy, state: present}
