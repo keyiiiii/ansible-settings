@@ -26,6 +26,7 @@ packages:
   - { name: flux, state: present }
   - { name: ganache, state: present }
   - { name: google-chrome, state: present }
+  - { name: google-cloud-sdk, state: present }
   - { name: google-web-designer, state: present }
   - { name: google-japanese-ime, state: present }
   - { name: hiddenbar, state: present }
