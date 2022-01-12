@@ -64,6 +64,7 @@ packages:
   - { name: jbig2dec, state: present}
   - { name: jemalloc, state: present}
   - { name: jpeg, state: present}
+  - { name: jq, state: present}
   - { name: lame, state: present}
   - { name: leptonica, state: present}
   - { name: libass, state: present}
