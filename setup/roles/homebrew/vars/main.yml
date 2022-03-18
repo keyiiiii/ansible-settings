@@ -130,7 +130,6 @@ packages:
   - { name: php, state: present}
   - { name: pixman, state: present}
   - { name: pkg-config, state: present}
-  - { name: postgresql@9.6, state: present}
   - { name: protobuf, state: present}
   - { name: pstree, state: present}
   - { name: python, state: present}
