@@ -8,6 +8,7 @@ packages:
   - { name: appcleaner, state: present }
   - { name: atom, state: present }
   - { name: betterzip, state: present }
+  - { name: blackhole-16ch, state: present }
   - { name: brave-browser, state: present }
   - { name: caffeine, state: present }
   - { name: charles, state: present }
