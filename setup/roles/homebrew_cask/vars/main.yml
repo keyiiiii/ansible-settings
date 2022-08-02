@@ -44,6 +44,7 @@ packages:
   - { name: macdown, state: present }
   - { name: ngrok, state: present }
   - { name: notion, state: present }
+  - { name: obs, state: present }
   - { name: opera, state: present }
   - { name: pritunl, state: present }
   - { name: provisionql, state: present }
