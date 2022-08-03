@@ -60,6 +60,7 @@ packages:
   - { name: Skitch, state: present }
   - { name: skype, state: present }
   - { name: slack, state: present }
+  - { name: sourcetree, state: present }
   - { name: spotify, state: present }
   - { name: sublime-text, state: present }
   - { name: telegram, state: present }
