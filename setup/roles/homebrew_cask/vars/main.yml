@@ -74,7 +74,6 @@ packages:
   - { name: visual-studio-code, state: present }
   - { name: vivaldi, state: present }
   - { name: vlc, state: present }
-  - { name: webstorm, state: present }
   - { name: wireshark, state: present }
   - { name: xmind, state: present }
   - { name: zeplin, state: present }
