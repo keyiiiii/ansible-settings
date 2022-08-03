@@ -78,5 +78,4 @@ packages:
   - { name: xmind, state: present }
   - { name: zeplin, state: present }
   - { name: zoom, state: present }
-  - { name: music-manager, state: present }
   - { name: vagrant, state: present }
