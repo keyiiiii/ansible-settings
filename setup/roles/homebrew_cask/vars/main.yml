@@ -31,7 +31,6 @@ packages:
   - { name: google-web-designer, state: present }
   - { name: google-japanese-ime, state: present }
   - { name: hiddenbar, state: present }
-  - { name: imagealpha, state: present }
   - { name: imageoptim, state: present }
   - { name: insomnia, state: present }
   - { name: iterm2, state: present }
