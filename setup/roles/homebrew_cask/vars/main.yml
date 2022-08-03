@@ -25,7 +25,6 @@ packages:
   - { name: dropbox, state: present }
   - { name: firefox, state: present }
   - { name: fluid, state: present }
-  - { name: flux, state: present }
   - { name: ganache, state: present }
   - { name: google-chrome, state: present }
   - { name: google-cloud-sdk, state: present }
