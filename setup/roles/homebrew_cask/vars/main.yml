@@ -4,7 +4,6 @@ packages:
   - { name: adobe-acrobat-reader, state: present }
   - { name: alfred, state: present }
   - { name: amazon-music, state: present }
-  - { name: android-studio, state: present }
   - { name: appcleaner, state: present }
   - { name: atom, state: present }
   - { name: authy, state: present }
