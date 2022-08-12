@@ -23,6 +23,7 @@ packages:
   - { name: discord, state: present }
   - { name: docker, state: present }
   - { name: dropbox, state: present }
+  - { name: figma, state: present }
   - { name: firefox, state: present }
   - { name: fluid, state: present }
   - { name: ganache, state: present }
