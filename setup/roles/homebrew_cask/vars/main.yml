@@ -1,6 +1,5 @@
 packages:
   - { name: 1Password, state: present }
-  - { name: abstract, state: present }
   - { name: adobe-acrobat-reader, state: present }
   - { name: alfred, state: present }
   - { name: amazon-music, state: present }
@@ -14,10 +13,6 @@ packages:
   - { name: caffeine, state: present }
   - { name: charles, state: present }
   - { name: clipy, state: present }
-  - { name: colorsnapper, state: present }
-  - { name: coteditor, state: present }
-  - { name: dash, state: present }
-  - { name: deco, state: present }
   - { name: deepl, state: present }
   - { name: diffmerge, state: present }
   - { name: discord, state: present }
@@ -29,7 +24,6 @@ packages:
   - { name: ganache, state: present }
   - { name: google-chrome, state: present }
   - { name: google-cloud-sdk, state: present }
-  - { name: google-web-designer, state: present }
   - { name: google-japanese-ime, state: present }
   - { name: hiddenbar, state: present }
   - { name: imageoptim, state: present }
@@ -57,18 +51,14 @@ packages:
   - { name: rectangle, state: present }
   - { name: resolutionator, state: present }
   - { name: securid, state: present }
-  - { name: sketch, state: present }
   - { name: Skitch, state: present }
-  - { name: skype, state: present }
   - { name: slack, state: present }
   - { name: sourcetree, state: present }
   - { name: spotify, state: present }
   - { name: sublime-text, state: present }
   - { name: telegram, state: present }
   - { name: the-unarchiver, state: present }
-  - { name: tower, state: present }
   - { name: townwifi, state: present }
-  - { name: transmit, state: present }
   - { name: tunnelbear, state: present }
   - { name: tunnelblick, state: present }
   - { name: unity-hub, state: present }
@@ -76,8 +66,5 @@ packages:
   - { name: visual-studio-code, state: present }
   - { name: vivaldi, state: present }
   - { name: vlc, state: present }
-  - { name: wireshark, state: present }
   - { name: xmind, state: present }
-  - { name: zeplin, state: present }
   - { name: zoom, state: present }
-  - { name: vagrant, state: present }
