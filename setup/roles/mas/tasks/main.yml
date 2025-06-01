@@ -17,7 +17,8 @@
       - name: mas install items
         shell: "mas install {{ item.id }}"
         when: '"item.id" not in mas_installed_list.stdout'
-        with_items: "{{ packages }}"
+        loop: "{{ packages }}"
+        ignore_errors: yes
 
     when: '"mas" in mas_brew_list.stdout_lines'
 

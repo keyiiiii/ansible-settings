@@ -1,8 +1,4 @@
-taps:
-  - homebrew/cask
-  - homebrew/cask-versions
-  - homebrew/cask-fonts
-  - homebrew/core
+taps: []
 
 packages:
   - { name: ansible, state: present}
@@ -16,7 +12,6 @@ packages:
   - { name: bash-completion, state: present}
   - { name: bento4, state: present}
   - { name: boost, state: present}
-  - { name: boot2docker, state: present}
   - { name: brotli, state: present}
   - { name: c-ares, state: present}
   - { name: cairo, state: present}
@@ -24,7 +19,6 @@ packages:
   - { name: cmake, state: present}
   - { name: coreutils, state: present}
   - { name: curl, state: present}
-  - { name: curl-openssl, state: present}
   - { name: dnsmasq, state: present}
   - { name: docker, state: present}
   - { name: docker-compose, state: present}
@@ -57,7 +51,6 @@ packages:
   - { name: gts, state: present}
   - { name: harfbuzz, state: present}
   - { name: icu4c, state: present}
-  - { name: ilmbase, state: present}
   - { name: imagemagick, state: present}
   - { name: jansson, state: present}
   - { name: jasper, state: present}
@@ -101,7 +94,6 @@ packages:
   - { name: lzo, state: present}
   - { name: mas, state: present }
   - { name: maven, state: present}
-  - { name: mcrypt, state: present}
   - { name: mitmproxy, state: present}
   - { name: mhash, state: present}
   - { name: mongoose, state: present}
@@ -119,7 +111,6 @@ packages:
   - { name: openjpeg, state: present}
   - { name: openldap, state: present}
   - { name: openssl, state: present}
-  - { name: openssl@1.1, state: present}
   - { name: opus, state: present}
   - { name: p11-kit, state: present}
   - { name: p7zip, state: present}

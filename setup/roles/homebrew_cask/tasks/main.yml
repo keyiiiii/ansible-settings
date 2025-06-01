@@ -1,12 +1,9 @@
-- block:
-
-  - name: homebrew cask install
-
-    community.general.homebrew_cask:
-      name: "{{ item.name }}"
-      state: "{{ item.state }}"
-      install_options: 'appdir=/Applications'
-    with_items: "{{ packages }}"
-
+- name: homebrew cask install
+  community.general.homebrew_cask:
+    name: "{{ item.name }}"
+    state: "{{ item.state }}"
+    install_options: 'appdir=/Applications'
+  loop: "{{ packages }}"
+  ignore_errors: yes
   tags:
     - homebrew_cask

@@ -2,10 +2,8 @@ packages:
   - { name: 1Password, state: present }
   - { name: adobe-acrobat-reader, state: present }
   - { name: alfred, state: present }
-  - { name: amazon-music, state: present }
   - { name: appcleaner, state: present }
   - { name: atom, state: present }
-  - { name: authy, state: present }
   - { name: betterzip, state: present }
   - { name: bitwarden, state: present }
   - { name: blackhole-16ch, state: present }
@@ -21,7 +19,6 @@ packages:
   - { name: figma, state: present }
   - { name: firefox, state: present }
   - { name: fluid, state: present }
-  - { name: ganache, state: present }
   - { name: google-chrome, state: present }
   - { name: google-cloud-sdk, state: present }
   - { name: google-japanese-ime, state: present }
@@ -33,7 +30,6 @@ packages:
   - { name: jetbrains-toolbox, state: present }
   - { name: kap, state: present }
   - { name: keepassx, state: present }
-  - { name: kindle, state: present }
   - { name: licecap, state: present }
   - { name: macdown, state: present }
   - { name: meetingbar, state: present }
@@ -50,8 +46,6 @@ packages:
   - { name: qlstephen, state: present }
   - { name: rectangle, state: present }
   - { name: resolutionator, state: present }
-  - { name: securid, state: present }
-  - { name: Skitch, state: present }
   - { name: slack, state: present }
   - { name: sourcetree, state: present }
   - { name: spotify, state: present }
@@ -67,4 +61,3 @@ packages:
   - { name: vivaldi, state: present }
   - { name: vlc, state: present }
   - { name: xmind, state: present }
-  - { name: zoom, state: present }

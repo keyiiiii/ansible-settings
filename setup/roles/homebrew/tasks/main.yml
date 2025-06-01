@@ -9,13 +9,13 @@
     homebrew_tap:
       name: "{{ item }}"
       state: present
-    with_items: "{{ taps }}"
+    loop: "{{ taps }}"
 
   - name: homebrew install
     homebrew:
       name: "{{ item.name }}"
       state: "{{ item.state }}"
-    with_items: "{{ packages }}"
+    loop: "{{ packages }}"
 
   tags:
     - homebrew
