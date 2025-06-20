@@ -2,3 +2,6 @@ packages:
   - { id: 1351639930, name: Gifski }
   - { id: 907364780, name: Tomato One }
   - { id: 411213048, name: LadioCast }
+  - { id: 539883307, name: LINE }
+  - { id: 1429033973, name: RunCat }
+  - { id: 497799835, name: Xcode }
