@@ -139,7 +139,6 @@ packages:
   - { name: sphinx-doc, state: present}
   - { name: sqlite, state: present}
   - { name: stoken, state: present}
-  - { name: terraform, state: present}
   - { name: tesseract, state: present}
   - { name: theora, state: present}
   - { name: thrift, state: present}
