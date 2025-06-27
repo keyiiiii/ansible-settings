@@ -3,7 +3,6 @@ packages:
   - { name: adobe-acrobat-reader, state: present }
   - { name: alfred, state: present }
   - { name: appcleaner, state: present }
-  - { name: atom, state: present }
   - { name: betterzip, state: present }
   - { name: bitwarden, state: present }
   - { name: blackhole-16ch, state: present }
