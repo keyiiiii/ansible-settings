@@ -10,7 +10,9 @@ packages:
   - { name: brave-browser, state: present }
   - { name: caffeine, state: present }
   - { name: charles, state: present }
+  - { name: claude, state: present }
   - { name: clipy, state: present }
+  - { name: cursor, state: present }
   - { name: deepl, state: present }
   - { name: diffmerge, state: present }
   - { name: discord, state: present }
