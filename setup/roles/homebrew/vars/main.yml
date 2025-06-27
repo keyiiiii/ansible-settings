@@ -25,7 +25,6 @@ packages:
   - { name: docker-machine, state: present}
   - { name: ethereum, state: present}
   - { name: ffmpeg, state: present}
-  - { name: fig, state: present}
   - { name: flac, state: present}
   - { name: fontconfig, state: present}
   - { name: freetds, state: present}
