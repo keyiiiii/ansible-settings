@@ -147,6 +147,7 @@ packages:
   - { name: unar, state: present}
   - { name: unbound, state: present}
   - { name: unixodbc, state: present}
+  - { name: uv, state: present}
   - { name: webp, state: present}
   - { name: wget, state: present}
   - { name: x264, state: present}
