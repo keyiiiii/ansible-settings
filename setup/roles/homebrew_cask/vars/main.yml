@@ -2,6 +2,7 @@ packages:
   - { name: 1Password, state: present }
   - { name: adobe-acrobat-reader, state: present }
   - { name: alfred, state: present }
+  - { name: android-studio, state: present }
   - { name: appcleaner, state: present }
   - { name: betterzip, state: present }
   - { name: bitwarden, state: present }
@@ -21,6 +22,7 @@ packages:
   - { name: figma, state: present }
   - { name: firefox, state: present }
   - { name: fluid, state: present }
+  - { name: flutter, state: present }
   - { name: google-chrome, state: present }
   - { name: google-cloud-sdk, state: present }
   - { name: google-japanese-ime, state: present }
@@ -55,6 +57,7 @@ packages:
   - { name: sublime-text, state: present }
   - { name: telegram, state: present }
   - { name: the-unarchiver, state: present }
+  - { name: townwifi, state: present }
   - { name: tunnelbear, state: present }
   - { name: tunnelblick, state: present }
   - { name: unity-hub, state: present }

@@ -1,12 +1,14 @@
 taps: []
 
 packages:
+  - { name: act, state: present}
   - { name: ansible, state: present}
   - { name: anyenv, state: present}
   - { name: aom, state: present}
   - { name: apr, state: present}
   - { name: apr-util, state: present}
   - { name: aspell, state: present}
+  - { name: asdf, state: present}
   - { name: autoconf, state: present}
   - { name: automake, state: present}
   - { name: bash-completion, state: present}
@@ -17,12 +19,15 @@ packages:
   - { name: cairo, state: present}
   - { name: cfssl, state: present}
   - { name: cmake, state: present}
+  - { name: cocoapods, state: present}
   - { name: coreutils, state: present}
   - { name: curl, state: present}
+  - { name: dart, state: present}
   - { name: dnsmasq, state: present}
   - { name: docker, state: present}
   - { name: docker-compose, state: present}
   - { name: docker-machine, state: present}
+  - { name: docutils, state: present}
   - { name: ethereum, state: present}
   - { name: ffmpeg, state: present}
   - { name: flac, state: present}
@@ -31,18 +36,22 @@ packages:
   - { name: freetype, state: present}
   - { name: frei0r, state: present}
   - { name: fribidi, state: present}
+  - { name: fvm, state: present}
   - { name: gd, state: present}
   - { name: gdbm, state: present}
   - { name: gdrive, state: present}
   - { name: gettext, state: present}
+  - { name: gh, state: present}
   - { name: ghostscript, state: present}
   - { name: giflib, state: present}
   - { name: git, state: present}
   - { name: git-lfs, state: present}
   - { name: glib, state: present}
   - { name: gmp, state: present}
+  - { name: gnupg, state: present}
   - { name: gnutls, state: present}
   - { name: go, state: present}
+  - { name: goenv, state: present}
   - { name: gobject-introspection, state: present}
   - { name: graphicsmagick, state: present}
   - { name: graphite2, state: present}
@@ -55,8 +64,10 @@ packages:
   - { name: jasper, state: present}
   - { name: jbig2dec, state: present}
   - { name: jemalloc, state: present}
+  - { name: jenv, state: present}
   - { name: jpeg, state: present}
   - { name: jq, state: present}
+  - { name: kubernetes-cli, state: present}
   - { name: lame, state: present}
   - { name: leptonica, state: present}
   - { name: libass, state: present}
@@ -93,14 +104,16 @@ packages:
   - { name: lzo, state: present}
   - { name: mas, state: present }
   - { name: maven, state: present}
-  - { name: mitmproxy, state: present}
   - { name: mhash, state: present}
+  - { name: mitmproxy, state: present}
+  - { name: mkcert, state: present}
   - { name: mongoose, state: present}
   - { name: mosh, state: present}
   - { name: netpbm, state: present}
   - { name: nettle, state: present}
   - { name: nghttp2, state: present}
   - { name: nginx, state: present}
+  - { name: nmap, state: present}
   - { name: nspr, state: present}
   - { name: nss, state: present}
   - { name: nvm, state: present }
@@ -120,13 +133,17 @@ packages:
   - { name: php, state: present}
   - { name: pixman, state: present}
   - { name: pkg-config, state: present}
+  - { name: pnpm, state: present}
+  - { name: pre-commit, state: present}
   - { name: protobuf, state: present}
   - { name: pstree, state: present}
   - { name: python, state: present}
   - { name: qt, state: present}
+  - { name: rbenv, state: present}
   - { name: readline, state: present}
   - { name: redis, state: present}
   - { name: rename, state: present}
+  - { name: rover, state: present}
   - { name: rtmpdump, state: present}
   - { name: rubberband, state: present}
   - { name: sbt, state: present}
@@ -140,6 +157,8 @@ packages:
   - { name: sqlite, state: present}
   - { name: stoken, state: present}
   - { name: tesseract, state: present}
+  - { name: terraform, state: present}
+  - { name: tfenv, state: present}
   - { name: theora, state: present}
   - { name: thrift, state: present}
   - { name: tidy-html5, state: present}
@@ -148,6 +167,7 @@ packages:
   - { name: unbound, state: present}
   - { name: unixodbc, state: present}
   - { name: uv, state: present}
+  - { name: virtualenv, state: present}
   - { name: webp, state: present}
   - { name: wget, state: present}
   - { name: x264, state: present}
@@ -155,3 +175,4 @@ packages:
   - { name: xvid, state: present}
   - { name: xz, state: present}
   - { name: yarn, state: present}
+  - { name: zsh-autosuggestions, state: present}
