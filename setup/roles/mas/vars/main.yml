@@ -1,8 +1,10 @@
 packages:
+  - { id: 549083868, name: Display Menu }
   - { id: 1351639930, name: Gifski }
-  - { id: 907364780, name: Tomato One }
+  - { id: 288545208, name: Instapaper }
   - { id: 411213048, name: LadioCast }
   - { id: 539883307, name: LINE }
-  - { id: 1429033973, name: RunCat }
-  - { id: 497799835, name: Xcode }
   - { id: 1274495053, name: Microsoft To Do }
+  - { id: 1429033973, name: RunCat }
+  - { id: 907364780, name: Tomato One }
+  - { id: 497799835, name: Xcode }
