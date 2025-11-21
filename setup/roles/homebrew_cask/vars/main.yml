@@ -15,7 +15,6 @@ packages:
   - { name: cursor, state: present }
   - { name: deepl, state: present }
   - { name: deskpad, state: present }
-  - { name: diffmerge, state: present }
   - { name: discord, state: present }
   - { name: docker, state: present }
   - { name: dropbox, state: present }
@@ -33,7 +32,6 @@ packages:
   - { name: itsycal, state: present }
   - { name: jetbrains-toolbox, state: present }
   - { name: kap, state: present }
-  - { name: keepassx, state: present }
   - { name: licecap, state: present }
   - { name: linear-linear, state: present }
   - { name: macdown, state: present }
@@ -47,7 +45,6 @@ packages:
   - { name: qlcolorcode, state: present }
   - { name: quicklook-csv, state: present }
   - { name: quicklook-json, state: present }
-  - { name: qlmarkdown, state: present }
   - { name: qlstephen, state: present }
   - { name: rectangle, state: present }
   - { name: resolutionator, state: present }
@@ -57,7 +54,6 @@ packages:
   - { name: sublime-text, state: present }
   - { name: telegram, state: present }
   - { name: the-unarchiver, state: present }
-  - { name: townwifi, state: present }
   - { name: tunnelbear, state: present }
   - { name: tunnelblick, state: present }
   - { name: unity-hub, state: present }
