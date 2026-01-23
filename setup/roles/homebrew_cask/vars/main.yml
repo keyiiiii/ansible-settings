@@ -34,6 +34,7 @@ packages:
   - { name: kap, state: present }
   - { name: licecap, state: present }
   - { name: linear-linear, state: present }
+  - { name: lm-studio, state: present }
   - { name: macdown, state: present }
   - { name: meetingbar, state: present }
   - { name: ngrok, state: present }

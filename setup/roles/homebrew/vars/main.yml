@@ -101,6 +101,7 @@ packages:
   - { name: libyaml, state: present}
   - { name: libzip, state: present}
   - { name: little-cms2, state: present}
+  - { name: llama.cpp, state: present}
   - { name: lzo, state: present}
   - { name: mas, state: present }
   - { name: maven, state: present}
