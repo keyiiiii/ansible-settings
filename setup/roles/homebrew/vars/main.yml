@@ -40,6 +40,7 @@ packages:
   - { name: gd, state: present}
   - { name: gdbm, state: present}
   - { name: gdrive, state: present}
+  - { name: gemini-cli, state: present}
   - { name: gettext, state: present}
   - { name: gh, state: present}
   - { name: ghostscript, state: present}

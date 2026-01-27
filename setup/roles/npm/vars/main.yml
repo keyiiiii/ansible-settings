@@ -1,4 +1,0 @@
-packages:
-  - { name: "@anthropic-ai/claude-code", state: present }
-  - { name: "@openai/codex", state: present }
-  - { name: "@google/gemini-cli", state: present }

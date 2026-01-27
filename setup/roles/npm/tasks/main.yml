@@ -1,9 +1,0 @@
-- name: Install npm global packages
-  shell: |
-    source ~/.nvm/nvm.sh
-    nvm use default
-    npm install -g {{ item.name }}
-  args:
-    executable: /bin/zsh
-  loop: "{{ packages }}"
-  when: item.state == 'present'

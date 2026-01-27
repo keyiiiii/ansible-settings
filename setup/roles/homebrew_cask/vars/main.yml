@@ -11,7 +11,10 @@ packages:
   - { name: caffeine, state: present }
   - { name: charles, state: present }
   - { name: claude, state: present }
+  - { name: claude-code, state: present }
   - { name: clipy, state: present }
+  - { name: codex, state: present }
+  - { name: copilot-cli, state: present }
   - { name: cursor, state: present }
   - { name: deepl, state: present }
   - { name: deskpad, state: present }
