@@ -7,3 +7,5 @@
     - homebrew
     - homebrew_cask
     - mas
+    - nvm
+    - npm

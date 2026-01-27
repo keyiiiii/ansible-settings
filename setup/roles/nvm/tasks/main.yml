@@ -1,0 +1,7 @@
+- name: Install latest LTS Node.js via nvm
+  shell: |
+    source ~/.nvm/nvm.sh
+    nvm install --lts
+    nvm alias default 'lts/*'
+  args:
+    executable: /bin/zsh
