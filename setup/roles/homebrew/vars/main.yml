@@ -22,7 +22,6 @@ packages:
   - { name: cocoapods, state: present}
   - { name: coreutils, state: present}
   - { name: curl, state: present}
-  - { name: dart, state: present}
   - { name: dnsmasq, state: present}
   - { name: docker, state: present}
   - { name: docker-compose, state: present}
@@ -36,7 +35,6 @@ packages:
   - { name: freetype, state: present}
   - { name: frei0r, state: present}
   - { name: fribidi, state: present}
-  - { name: fvm, state: present}
   - { name: gd, state: present}
   - { name: gdbm, state: present}
   - { name: gdrive, state: present}
