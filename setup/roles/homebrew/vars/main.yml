@@ -170,3 +170,4 @@ packages:
   - { name: xz, state: present}
   - { name: yarn, state: present}
   - { name: zsh-autosuggestions, state: present}
+  - { name: zsh-syntax-highlighting, state: present}
