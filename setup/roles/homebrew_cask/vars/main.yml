@@ -38,18 +38,13 @@ packages:
   - { name: licecap, state: present }
   - { name: linear-linear, state: present }
   - { name: lm-studio, state: present }
-  - { name: macdown, state: present }
   - { name: meetingbar, state: present }
+  - { name: mitmproxy, state: present }
   - { name: ngrok, state: present }
   - { name: notion, state: present }
   - { name: obs, state: present }
   - { name: opera, state: present }
   - { name: pritunl, state: present }
-  - { name: provisionql, state: present }
-  - { name: qlcolorcode, state: present }
-  - { name: quicklook-csv, state: present }
-  - { name: quicklook-json, state: present }
-  - { name: qlstephen, state: present }
   - { name: rectangle, state: present }
   - { name: resolutionator, state: present }
   - { name: slack, state: present }

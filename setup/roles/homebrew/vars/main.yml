@@ -25,7 +25,6 @@ packages:
   - { name: dnsmasq, state: present}
   - { name: docker, state: present}
   - { name: docker-compose, state: present}
-  - { name: docker-machine, state: present}
   - { name: docutils, state: present}
   - { name: ethereum, state: present}
   - { name: ffmpeg, state: present}
@@ -57,7 +56,6 @@ packages:
   - { name: graphviz, state: present}
   - { name: gts, state: present}
   - { name: harfbuzz, state: present}
-  - { name: icu4c, state: present}
   - { name: imagemagick, state: present}
   - { name: jansson, state: present}
   - { name: jasper, state: present}
@@ -105,7 +103,6 @@ packages:
   - { name: mas, state: present }
   - { name: maven, state: present}
   - { name: mhash, state: present}
-  - { name: mitmproxy, state: present}
   - { name: mkcert, state: present}
   - { name: mongoose, state: present}
   - { name: mosh, state: present}
@@ -122,7 +119,6 @@ packages:
   - { name: openexr, state: present}
   - { name: openjpeg, state: present}
   - { name: openldap, state: present}
-  - { name: openssl, state: present}
   - { name: opus, state: present}
   - { name: p11-kit, state: present}
   - { name: p7zip, state: present}
@@ -137,7 +133,6 @@ packages:
   - { name: pre-commit, state: present}
   - { name: protobuf, state: present}
   - { name: pstree, state: present}
-  - { name: python, state: present}
   - { name: qt, state: present}
   - { name: rbenv, state: present}
   - { name: readline, state: present}
@@ -157,7 +152,6 @@ packages:
   - { name: sqlite, state: present}
   - { name: stoken, state: present}
   - { name: tesseract, state: present}
-  - { name: terraform, state: present}
   - { name: tfenv, state: present}
   - { name: theora, state: present}
   - { name: thrift, state: present}
