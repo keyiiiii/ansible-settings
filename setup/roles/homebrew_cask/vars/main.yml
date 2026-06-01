@@ -28,12 +28,12 @@ packages:
   - { name: google-chrome, state: present }
   - { name: google-cloud-sdk, state: present }
   - { name: google-japanese-ime, state: present }
-  - { name: hiddenbar, state: present }
   - { name: imageoptim, state: present }
   - { name: insomnia, state: present }
   - { name: iterm2, state: present }
   - { name: itsycal, state: present }
   - { name: jetbrains-toolbox, state: present }
+  - { name: jordanbaird-ice@beta, state: present }
   - { name: kap, state: present }
   - { name: licecap, state: present }
   - { name: linear-linear, state: present }
