@@ -2,6 +2,7 @@ taps: []
 
 packages:
   - { name: act, state: present}
+  - { name: actionlint, state: present}
   - { name: ansible, state: present}
   - { name: anyenv, state: present}
   - { name: aom, state: present}
@@ -114,6 +115,7 @@ packages:
   - { name: nspr, state: present}
   - { name: nss, state: present}
   - { name: nvm, state: present }
+  - { name: ollama, state: present}
   - { name: openconnect, state: present}
   - { name: opencore-amr, state: present}
   - { name: openexr, state: present}
@@ -151,11 +153,13 @@ packages:
   - { name: sphinx-doc, state: present}
   - { name: sqlite, state: present}
   - { name: stoken, state: present}
+  - { name: terraform, state: present}
   - { name: tesseract, state: present}
   - { name: tfenv, state: present}
   - { name: theora, state: present}
   - { name: thrift, state: present}
   - { name: tidy-html5, state: present}
+  - { name: tmux, state: present}
   - { name: tree, state: present}
   - { name: unar, state: present}
   - { name: unbound, state: present}
@@ -166,8 +170,10 @@ packages:
   - { name: wget, state: present}
   - { name: x264, state: present}
   - { name: x265, state: present}
+  - { name: xcodegen, state: present}
   - { name: xvid, state: present}
   - { name: xz, state: present}
   - { name: yarn, state: present}
+  - { name: yt-dlp, state: present}
   - { name: zsh-autosuggestions, state: present}
   - { name: zsh-syntax-highlighting, state: present}

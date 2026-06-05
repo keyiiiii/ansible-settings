@@ -5,7 +5,6 @@ packages:
   - { name: android-studio, state: present }
   - { name: appcleaner, state: present }
   - { name: betterzip, state: present }
-  - { name: bitwarden, state: present }
   - { name: blackhole-16ch, state: present }
   - { name: brave-browser, state: present }
   - { name: caffeine, state: present }
@@ -13,6 +12,7 @@ packages:
   - { name: claude, state: present }
   - { name: claude-code, state: present }
   - { name: clipy, state: present }
+  - { name: cmux, state: present }
   - { name: codex, state: present }
   - { name: copilot-cli, state: present }
   - { name: cursor, state: present }
@@ -25,6 +25,8 @@ packages:
   - { name: firefox, state: present }
   - { name: fluid, state: present }
   - { name: flutter, state: present }
+  - { name: gcloud-cli, state: present }
+  - { name: ghostty, state: present }
   - { name: google-chrome, state: present }
   - { name: google-cloud-sdk, state: present }
   - { name: google-japanese-ime, state: present }
@@ -38,6 +40,7 @@ packages:
   - { name: licecap, state: present }
   - { name: linear-linear, state: present }
   - { name: lm-studio, state: present }
+  - { name: macdown, state: present }
   - { name: meetingbar, state: present }
   - { name: mitmproxy, state: present }
   - { name: ngrok, state: present }
@@ -45,12 +48,14 @@ packages:
   - { name: obs, state: present }
   - { name: opera, state: present }
   - { name: pritunl, state: present }
+  - { name: qlmarkdown, state: present }
   - { name: rectangle, state: present }
   - { name: resolutionator, state: present }
   - { name: slack, state: present }
   - { name: sourcetree, state: present }
   - { name: spotify, state: present }
   - { name: sublime-text, state: present }
+  - { name: tailscale-app, state: present }
   - { name: telegram, state: present }
   - { name: the-unarchiver, state: present }
   - { name: tunnelbear, state: present }
@@ -60,4 +65,6 @@ packages:
   - { name: visual-studio-code, state: present }
   - { name: vivaldi, state: present }
   - { name: vlc, state: present }
+  - { name: voxbridge, state: present }
+  - { name: voxnote, state: present }
   - { name: xmind, state: present }

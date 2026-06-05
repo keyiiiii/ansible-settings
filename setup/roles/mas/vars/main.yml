@@ -1,4 +1,5 @@
 packages:
+  - { id: 1352778147, name: Bitwarden }
   - { id: 549083868, name: Display Menu }
   - { id: 1351639930, name: Gifski }
   - { id: 288545208, name: Instapaper }
