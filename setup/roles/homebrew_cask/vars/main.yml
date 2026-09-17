@@ -40,6 +40,8 @@ packages:
   - { name: licecap, state: present }
   - { name: linear-linear, state: present }
   - { name: lm-studio, state: present }
+  # macdown は macdown-3000 と conflicts_with のため先に削除する（この順序を保つ）
+  - { name: macdown, state: absent }
   - { name: macdown-3000, state: present }
   - { name: meetingbar, state: present }
   - { name: mitmproxy, state: present }
