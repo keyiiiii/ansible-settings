@@ -40,7 +40,7 @@ packages:
   - { name: licecap, state: present }
   - { name: linear-linear, state: present }
   - { name: lm-studio, state: present }
-  - { name: macdown, state: present }
+  - { name: macdown-3000, state: present }
   - { name: meetingbar, state: present }
   - { name: mitmproxy, state: present }
   - { name: ngrok, state: present }
