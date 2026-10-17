@@ -1,5 +1,6 @@
 - name: homebrew cask install
   community.general.homebrew_cask:
+    path: /opt/homebrew/bin:/usr/local/bin
     name: "{{ item.name }}"
     state: "{{ item.state }}"
     install_options: 'appdir=/Applications'

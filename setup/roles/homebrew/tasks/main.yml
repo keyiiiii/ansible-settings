@@ -2,6 +2,7 @@
 
   - name: homebrew update/upgrade
     homebrew:
+      path: /opt/homebrew/bin:/usr/local/bin
       update_homebrew: true
       upgrade_all: yes
 
@@ -13,6 +14,7 @@
 
   - name: homebrew install
     homebrew:
+      path: /opt/homebrew/bin:/usr/local/bin
       name: "{{ item.name }}"
       state: "{{ item.state }}"
     loop: "{{ packages }}"

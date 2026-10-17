@@ -3,6 +3,8 @@
   connection: local
   become: no
   gather_facts: no
+  environment:
+    PATH: "/opt/homebrew/bin:/usr/local/bin:{{ lookup('env', 'PATH') }}"
   roles:
     - homebrew
     - homebrew_cask
