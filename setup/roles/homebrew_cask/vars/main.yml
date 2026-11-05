@@ -35,7 +35,9 @@ packages:
   - { name: iterm2, state: present }
   - { name: itsycal, state: present }
   - { name: jetbrains-toolbox, state: present }
-  - { name: jordanbaird-ice@beta, state: present }
+  # Ice の安定版と beta 版は競合するため、beta を先に削除する（この順序を保つ）
+  - { name: jordanbaird-ice@beta, state: absent }
+  - { name: jordanbaird-ice, state: present }
   - { name: kap, state: present }
   - { name: licecap, state: present }
   - { name: linear-linear, state: present }
