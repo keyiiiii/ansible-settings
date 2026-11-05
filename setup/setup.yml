@@ -8,5 +8,8 @@
   roles:
     - homebrew
     - homebrew_cask
+    - role: icey
+      tags:
+        - icey
     - mas
     - nvm

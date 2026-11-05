@@ -1,0 +1,5 @@
+icey_version: "0.14.7"
+icey_dmg_url: "https://github.com/leonardovida/icey/releases/download/v{{ icey_version }}/Icey-{{ icey_version }}.dmg"
+icey_dmg_checksum: "sha256:faa9c635782614ae7fd9b03c8854f7788bb9e69e4a85ae0e0398ad80aa01e1ea"
+icey_dmg_path: "/private/tmp/Icey-{{ icey_version }}.dmg"
+icey_mount_path: "/private/tmp/Icey-mount"

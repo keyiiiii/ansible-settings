@@ -1,0 +1,54 @@
+- name: Read installed Icey version
+  ansible.builtin.command:
+    argv:
+      - /usr/libexec/PlistBuddy
+      - -c
+      - "Print :CFBundleShortVersionString"
+      - /Applications/Icey.app/Contents/Info.plist
+  register: icey_installed_version
+  changed_when: false
+  failed_when: false
+
+- name: Download Icey disk image
+  ansible.builtin.get_url:
+    url: "{{ icey_dmg_url }}"
+    dest: "{{ icey_dmg_path }}"
+    checksum: "{{ icey_dmg_checksum }}"
+    mode: "0644"
+  when: icey_installed_version.stdout != icey_version
+
+- name: Create Icey mount point
+  ansible.builtin.file:
+    path: "{{ icey_mount_path }}"
+    state: directory
+    mode: "0755"
+  when: icey_installed_version.stdout != icey_version
+
+- name: Mount Icey disk image
+  ansible.builtin.command:
+    argv:
+      - hdiutil
+      - attach
+      - -nobrowse
+      - -readonly
+      - -mountpoint
+      - "{{ icey_mount_path }}"
+      - "{{ icey_dmg_path }}"
+    creates: "{{ icey_mount_path }}/Icey.app"
+  when: icey_installed_version.stdout != icey_version
+
+- name: Install Icey
+  ansible.builtin.command:
+    argv:
+      - ditto
+      - "{{ icey_mount_path }}/Icey.app"
+      - /Applications/Icey.app
+  when: icey_installed_version.stdout != icey_version
+
+- name: Unmount Icey disk image
+  ansible.builtin.command:
+    argv:
+      - hdiutil
+      - detach
+      - "{{ icey_mount_path }}"
+  when: icey_installed_version.stdout != icey_version
