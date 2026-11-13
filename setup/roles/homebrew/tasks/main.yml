@@ -12,6 +12,15 @@
       state: present
     loop: "{{ taps }}"
 
+  - name: homebrew trust tap
+    ansible.builtin.command:
+      argv:
+        - brew
+        - trust
+        - "{{ item }}"
+    loop: "{{ taps }}"
+    changed_when: false
+
   - name: homebrew install
     homebrew:
       path: /opt/homebrew/bin:/usr/local/bin

@@ -1,4 +1,5 @@
-taps: []
+taps:
+  - keyiiiii/tap
 
 packages:
   - { name: act, state: present}
