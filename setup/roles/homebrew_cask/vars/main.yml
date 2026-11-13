@@ -51,7 +51,6 @@ packages:
   - { name: notion, state: present }
   - { name: obs, state: present }
   - { name: opera, state: present }
-  - { name: pritunl, state: present }
   - { name: qlmarkdown, state: present }
   - { name: rectangle, state: present }
   - { name: resolutionator, state: present }
@@ -59,11 +58,8 @@ packages:
   - { name: sourcetree, state: present }
   - { name: spotify, state: present }
   - { name: sublime-text, state: present }
-  - { name: tailscale-app, state: present }
   - { name: telegram, state: present }
   - { name: the-unarchiver, state: present }
-  - { name: tunnelbear, state: present }
-  - { name: tunnelblick, state: present }
   - { name: unity-hub, state: present }
   - { name: virtualbox, state: present }
   - { name: visual-studio-code, state: present }
